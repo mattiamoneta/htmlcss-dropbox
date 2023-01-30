@@ -54,6 +54,14 @@
     background-color: mediumturquoise;
 }
 
+.debug .partners{
+    background-color: palegreen;
+}
+
+.debug .partners .row{
+    background-color:sandybrown;
+}
+
 /* ---/DEBUG--- */
 
 
