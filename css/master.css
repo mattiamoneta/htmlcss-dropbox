@@ -29,6 +29,7 @@
 
 .row{display: flex;}
 .row-wrap{flex-wrap: wrap;}
+.flex{display: flex;}
 
 .col-1{width: calc(100% / 6);}
 .col-2{width: calc(100% / 6 * 2);}
@@ -120,11 +121,11 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Prompt', sans-serif;}
 
 h1{
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 3.7rem;
 }
 
 h2{font-size: 2rem;}
-h4{font-size: 1.1rem;}
+h4{font-size: 1.3rem;}
 
 p{line-height: 1.5rem;}
 
@@ -145,13 +146,9 @@ p{line-height: 1.5rem;}
     transition: all .5s ease;
 }
 
-.btn-lg{
-    padding: 10px 30px;
-}
+.btn-lg{padding: 10px 30px;}
+.btn-md{padding: 8px 20px;}
 
-.btn-md{
-    padding: 8px 20px;
-}
 
 .btn-blue{
     background-color: #0061ff;
@@ -161,6 +158,19 @@ p{line-height: 1.5rem;}
 
 .btn-blue:hover{
     background-color: #448bfc;
+    box-shadow: 0px 9px 20px -7px rgba(0,0,0,0.5);
+}
+
+.btn-outline{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn-outline:hover{
+    color: white;
+    background-color: #448bfc;
+    border: 1px solid #448bfc;
     box-shadow: 0px 9px 20px -7px rgba(0,0,0,0.5);
 }
 
@@ -283,46 +293,75 @@ header{
 
 /* PRICING PLANS CARDS */
 
+.radio .radio-item{
+    padding-left: 30px;
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.radio .radio-item::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.radio .radio-item.checked::before{
+    border: 5px solid #0061ff;
+    width: 12px;
+    height: 12px;
+}
+
+
+
 .card{
     border: 1px solid #d0d0d3;
+    height: 100%;
 }
 
 .card .card-title{
     border-bottom: 1px solid #d0d0d3;
 }
 
-.card-container .features-list{
+.card-container .icon-list{
     position: relative;
     list-style-type: none;
     padding-left: 20px;
 }
 
-.card-container .features-list li{
+.card-container .icon-list li{
+    position: relative;
   padding: 8px 0px;
 }
 
 
-.card-container .checked-list{
-    position: relative;
-    list-style-type: none;
-    padding-left: 20px;
-}
-
-.card-container .checked-list li{
-    padding: 8px 0px;
-}
-
-.card-container .checked-list li::before{
+.card-container .icon-list.checkmark li::before{
     content: '\2713';
     color: #0061ff;
     position: absolute;
-    left: 0;
+    left: -20px;
+}
+
+.font-list{
+    position: absolute;
+    left: -25px;
+    top: 10px;
 }
 
 .card-separator{
     margin: 40px 0px;
     width: 40px;
     color: white;
+}
+
+/* FIND PARTNERS */
+
+#sect-partners img{
+    max-width: 90%;
 }
 
 
