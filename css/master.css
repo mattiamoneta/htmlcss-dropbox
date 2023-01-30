@@ -132,6 +132,7 @@ footer.debug .col-1{
 
 .wrapper-fs{
     width: 100vw;
+    max-width:100%;
     margin: auto;
 }
 
@@ -206,7 +207,7 @@ h4{font-size: 1.1rem;}
 /* PARTNERS */
 
 .logo-squared{
-    width: calc(100vw / 6);
+    width: calc(100vw - 1px / 6); /* !!CHROME SCROLLBAR FIX!!! */
     height: calc(100vw / 6);
 }
 
