@@ -28,7 +28,31 @@
     background-color: orange;
 }
 
+.debug .radio{
+    background-color: beige;
+}
 
+.debug .plans .col-2{
+    background-color: darkolivegreen;
+}
+
+.debug .row .card{
+    background-color: hotpink;
+    height: 400px;
+}
+
+.debug  .card{
+    background-color: yellowgreen;
+    height: 100px;
+}
+
+.debug .card-title{
+    background-color: lightsalmon;
+}
+
+.debug.plans .row{
+    background-color: mediumturquoise;
+}
 
 /* ---/DEBUG--- */
 
@@ -50,7 +74,7 @@
 
 /* LAYOUT */
 
-
+/* flex columns */
 .row{display: flex;}
 
 .col-1{width: calc(100% / 6);}
@@ -60,8 +84,7 @@
 .col-5{width: calc(100% / 6 * 5);}
 .col-6{width: 100%;}
 
-.navbar-fix{padding-top: 50px;}
-
+/* wrappers */
 .wrapper-lg{
     width: 1170px;
     margin: auto;
@@ -78,10 +101,28 @@
 }
 
 
+/* padding-margins-fix */
+
+.navbar-fix{padding-top: 50px;}
+
+ .p-sm{padding: 5px;}
+ .p-md{padding: 15px;}
+ .p-lg{padding: 25px;}
+ .p-xl{padding: 50px;}
+ .p-xxl{padding: 150px;}
+
+ 
+ .py-sm{padding: 5px 0px;}
+ .py-md{padding: 15px 0px;}
+ .py-lg{padding: 25px 0px;}
+ .py-xl{padding: 50px 0px;}
+ .py-xxl{padding: 150px 0px;}
+
+
 /* TYPO */
 
+html{font-family: 'PT Sans', sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-family: 'Prompt', sans-serif;}
-p{font-family: 'PT Sans', sans-serif;}
 
 h1{font-size: 3rem;}
 h2{font-size: 2rem;}
@@ -118,3 +159,6 @@ h2{font-size: 2rem;}
 .jumbotron{
     padding: 50px;
 }
+
+/* CARDS */
+
