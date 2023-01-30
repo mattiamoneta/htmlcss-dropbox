@@ -62,6 +62,10 @@
     background-color:sandybrown;
 }
 
+.debug .claim{
+    background-color: aliceblue;
+}
+
 .debug .features{background-color: tomato;}
 .debug .features .col-2{background-color: teal;}
 
@@ -69,6 +73,12 @@
 .debug .our-partners{background-color: mediumturquoise;}
 .debug .our-partners .col-2{background-color:indigo;}
 .debug .logo-squared{background-color: mistyrose; border: 1px dotted orange;}
+
+
+footer.debug .col-1{
+    background-color: red;
+    height: 300px;
+}
 
 /* ---/DEBUG--- */
 
@@ -83,14 +93,22 @@
 
 /* COLORS */
 
+/* background */
 .bg-light{background-color: #b4d0e7;}
 .bg-dark{background-color: black;}
 
+/* text */
 .text-violet{color: #61082b;}
+.text-light{color: white;}
 
 /* LAYOUT */
 
 /* flex columns */
+
+.justify-center{justify-content: center;}
+.justify-between{justify-content: space-between;}
+.justify-around{justify-content: space-around;}
+
 .row{display: flex;}
 .row-wrap{flex-wrap: wrap;}
 
@@ -127,18 +145,18 @@
 .card-fix-xl{margin: -50px;}
 .card-fix-xxl{margin: -150px;}
 
- .p-sm{padding: 5px;}
- .p-md{padding: 15px;}
- .p-lg{padding: 25px;}
- .p-xl{padding: 50px;}
- .p-xxl{padding: 150px;}
+.p-sm{padding: 5px;}
+.p-md{padding: 15px;}
+.p-lg{padding: 25px;}
+.p-xl{padding: 50px;}
+.p-xxl{padding: 150px;}
 
- 
- .py-sm{padding: 5px 0px;}
- .py-md{padding: 15px 0px;}
- .py-lg{padding: 25px 0px;}
- .py-xl{padding: 50px 0px;}
- .py-xxl{padding: 150px 0px;}
+
+.py-sm{padding: 5px 0px;}
+.py-md{padding: 15px 0px;}
+.py-lg{padding: 25px 0px;}
+.py-xl{padding: 50px 0px;}
+.py-xxl{padding: 150px 0px;}
 
 
 /* TYPO */
@@ -192,3 +210,4 @@ h4{font-size: 1.1rem;}
     height: calc(100vw / 6);
 }
 
+/* FOOTER */
