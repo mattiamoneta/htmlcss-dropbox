@@ -1,17 +1,17 @@
 /* ---DEBUG--- */
 
-.debug.navbar{
+/* .debug.navbar{
     background-color: red;
 }
 
 .debug.navbar .col-3{
     background-color:lightblue;
-}
+} */
 
-.debug .jumbotron{
+/* .debug .jumbotron{
     background-color: aquamarine;
-}
-
+} */
+/* 
 .debug .jumbotron .wrapper-lg{
     background-color: burlywood;
 }
@@ -22,36 +22,36 @@
 
 .debug .jumbotron .col-3{
     background-color:deepskyblue;
-}
+} */
 
-.debug img{
+/* .debug img{
     background-color: orange;
-}
+} */
 
 .debug .radio{
     background-color: beige;
 }
 
 .debug .plans .col-2{
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .debug .row .card{
-    background-color: hotpink;
-    height: 400px;
+    /* background-color: hotpink; */
+    /* height: 400px; */
 }
 
 .debug  .card{
-    background-color: yellowgreen;
-    height: 100px;
+    /* background-color: yellowgreen; */
+    /* height: 100px; */
 }
 
 .debug .card-title{
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 
 .debug.plans .row{
-    background-color: mediumturquoise;
+    /* background-color: mediumturquoise; */
 }
 
 .debug .partners{
@@ -79,5 +79,7 @@ footer.debug .col-1{
     background-color: red;
     height: 300px;
 }
+
+
 
 /* ---/DEBUG--- */
