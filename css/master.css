@@ -5,7 +5,7 @@
 }
 
 .debug.navbar .col-3{
-    background-color: #61082b;
+    background-color:lightblue;
 }
 
 .debug .jumbotron{
@@ -14,8 +14,21 @@
 
 .debug .jumbotron .wrapper-lg{
     background-color: burlywood;
-    height: 500px;
 }
+
+.debug .jumbotron .col-2{
+    background-color:chartreuse;
+}
+
+.debug .jumbotron .col-3{
+    background-color:deepskyblue;
+}
+
+.debug img{
+    background-color: orange;
+}
+
+
 
 /* ---/DEBUG--- */
 
@@ -36,6 +49,7 @@
 .text-violet{color: #61082b;}
 
 /* LAYOUT */
+
 
 .row{display: flex;}
 
@@ -69,6 +83,9 @@
 h1, h2, h3, h4, h5, h6 {font-family: 'Prompt', sans-serif;}
 p{font-family: 'PT Sans', sans-serif;}
 
+h1{font-size: 3rem;}
+h2{font-size: 2rem;}
+
 .text-right{text-align: right;}
 .text-left{text-align: left;}
 .text-center{text-align: center;}
@@ -98,3 +115,6 @@ p{font-family: 'PT Sans', sans-serif;}
 
 /* JUMBOTRON */
 
+.jumbotron{
+    padding: 50px;
+}
