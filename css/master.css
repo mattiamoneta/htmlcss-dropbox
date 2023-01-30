@@ -65,6 +65,11 @@
 .debug .features{background-color: tomato;}
 .debug .features .col-2{background-color: teal;}
 
+
+.debug .our-partners{background-color: mediumturquoise;}
+.debug .our-partners .col-2{background-color:indigo;}
+.debug .logo-squared{background-color: mistyrose; border: 1px dotted orange;}
+
 /* ---/DEBUG--- */
 
 
@@ -116,6 +121,11 @@
 /* padding-margins-fix */
 
 .navbar-fix{padding-top: 50px;}
+.card-fix-sm{margin: -5px;}
+.card-fix-md{margin: -15px;}
+.card-fix-lg{margin: -25px;}
+.card-fix-xl{margin: -50px;}
+.card-fix-xxl{margin: -150px;}
 
  .p-sm{padding: 5px;}
  .p-md{padding: 15px;}
@@ -173,5 +183,12 @@ h4{font-size: 1.1rem;}
     padding: 50px;
 }
 
-/* CARDS */
+/* PRICING PLANS CARDS */
+
+/* PARTNERS */
+
+.logo-squared{
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+}
 
