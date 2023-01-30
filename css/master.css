@@ -62,6 +62,9 @@
     background-color:sandybrown;
 }
 
+.debug .features{background-color: tomato;}
+.debug .features .col-2{background-color: teal;}
+
 /* ---/DEBUG--- */
 
 
@@ -84,6 +87,7 @@
 
 /* flex columns */
 .row{display: flex;}
+.row-wrap{flex-wrap: wrap;}
 
 .col-1{width: calc(100% / 6);}
 .col-2{width: calc(100% / 6 * 2);}
@@ -134,6 +138,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Prompt', sans-serif;}
 
 h1{font-size: 3rem;}
 h2{font-size: 2rem;}
+h4{font-size: 1.1rem;}
 
 .text-right{text-align: right;}
 .text-left{text-align: left;}
