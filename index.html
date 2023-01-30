@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
     <title>Dropbox</title>
 
     <!-- DEBUG -->
@@ -21,50 +24,57 @@
 
 </head>
     <body>
-        <header class="navbar debug">
-            <div class="col-3">
-                <img src="" alt="Dropbox Logo">
+        <header class="navbar">
+            <a href="index.html"><img src="./img/logo-small.png" alt="Dropbox Logo" class="navbar-logo"></a>
+            <div class="col-3 h-100">
                 <nav class="navbar-nav">
                     <ul>
-                        <li><a href="#">LINK</a></li>
-                        <li><a href="#">LINK</a></li>
-                        <li><a href="#">LINK</a></li>
+                        <li><a href="#">Perchè Dropbox</a></li>
+                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Piani e Prezzi</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="col-3 text-right">
+            <div class="col-3 h-100 text-right">
                 <nav class="navbar-nav">
                     <ul>
-                        <li><a href="#">LINK</a></li>
-                        <li><a href="#">LINK</a></li>
-                        <li><a href="#">LINK</a></li>
-                        <li><a href="#">BUTTON</a></li>
+                        <li><a href="#">Supporto</a></li>
+                        <li><a href="#">Contatta l'ufficio vendite</a></li>
+                        <li><a href="#">Accedi</a></li>
                     </ul>
                 </nav>
+                <a href="#" class="btn btn-blue btn-md px-md">Inizia</a>
             </div>
         </header>
 
         <main class="navbar-fix debug">
             
             <!-- JUMBOTRON -->
-            <section class="jumbotron">
-                <div class="wrapper-lg">
-                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, porro?</h1>
+            <section class="jumbotron bg-light">
+                <div class="wrapper-lg pt-xl">
+                        <h1 class="py-xl">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                     <div class="row">
                         <div class="col-2">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quia doloribus suscipit. Temporibus totam, harum ducimus dicta quod vero. Sint.</p>
+                            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibli dallo stesso posto. <br> Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                            <a href="#" class="btn btn-lg btn-blue my-lg">Inizia la tua prova gratuita</a>
+                            <div>Annulla  in qualsiasi momento</div>
+                            <a href="#sect-partners">
+                                <div class="arrow-down my-xl">
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                </div>
+                            </a>
                         </div>
-                        <div class="col-4">
-                            <img src="" alt="Jumbotron Hero">
+                        <div class="col-4 img-overlap">
+                            <img src="./img/jumbo.png" alt="Jumbotron Hero" class="img-hero">
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- PLANS -->
-            <section class="plans py-xl debug">
+            <section class="plans py-xxl debug">
                 <div class="wrapper-md">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <h2>Trova il piano business che fa per te</h2>
                     <div class="radio py-lg">
                         RADIO BUTTONS
                     </div>
@@ -73,11 +83,27 @@
                         <div class="col-2 p-md">
                             
                             <div class="card">
-                                <div class="card-title">
-                                    TITLE
+                                <div class="card-title p-sm text-center">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Singolo</span>
                                 </div>
-                                <div class="card-container">
-                                    CONTAINER
+                                <div class="card-container p-lg">
+                                    <h4>Professional</h4>
+                                    <div class="font-bold py-sm">€ 12.00</div>
+                                    <div class="text-grey py-sm">/mese</div>
+                                    <ul class="features-list py-lg">
+                                        <li>1 utente</li>
+                                        <li>5 TB di spazio di archiviazione sicuro</li>
+                                        <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-lg btn-blue">Prova gratis per 30 giorni</a>
+                                    <div class="py-md">oppure <a href="#">acquista ora</a></div>
+                                    <hr class="card-separator">
+                                    <span class="font-bold py-lg">Punti Salienti del piano</span>
+                                    <ul class="checked-list py-lg">
+                                        <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                                        <li>Cartelle offline su dispositivi mobili</li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -85,11 +111,27 @@
                         <div class="col-2 p-md">
                             
                             <div class="card">
-                                <div class="card-title">
-                                    TITLE
+                                <div class="card-title p-sm text-center">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Singolo</span>
                                 </div>
-                                <div class="card-container">
-                                    CONTAINER
+                                <div class="card-container p-lg">
+                                    <h4>Professional</h4>
+                                    <div class="font-bold py-sm">€ 12.00</div>
+                                    <div class="text-grey py-sm">/mese</div>
+                                    <ul class="features-list py-lg">
+                                        <li>1 utente</li>
+                                        <li>5 TB di spazio di archiviazione sicuro</li>
+                                        <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-lg btn-blue">Prova gratis per 30 giorni</a>
+                                    <div class="py-md">oppure <a href="#">acquista ora</a></div>
+                                    <hr class="card-separator">
+                                    <span class="font-bold py-lg">Punti Salienti del piano</span>
+                                    <ul class="checked-list py-lg">
+                                        <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                                        <li>Cartelle offline su dispositivi mobili</li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -97,11 +139,27 @@
                         <div class="col-2 p-md">
                             
                             <div class="card">
-                                <div class="card-title">
-                                    TITLE
+                                <div class="card-title p-sm text-center">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Singolo</span>
                                 </div>
-                                <div class="card-container">
-                                    CONTAINER
+                                <div class="card-container p-lg">
+                                    <h4>Professional</h4>
+                                    <div class="font-bold py-sm">€ 12.00</div>
+                                    <div class="text-grey py-sm">/mese</div>
+                                    <ul class="features-list py-lg">
+                                        <li>1 utente</li>
+                                        <li>5 TB di spazio di archiviazione sicuro</li>
+                                        <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-lg btn-blue">Prova gratis per 30 giorni</a>
+                                    <div class="py-md">oppure <a href="#">acquista ora</a></div>
+                                    <hr class="card-separator">
+                                    <span class="font-bold py-lg">Punti Salienti del piano</span>
+                                    <ul class="checked-list py-lg">
+                                        <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                                        <li>Cartelle offline su dispositivi mobili</li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -111,11 +169,12 @@
                    <div class="row p-md card-fix-md">
                        <div class="col-6">
                             <div class="card">
-                                <div class="card-title">
-                                    TITLE
+                                <div class="card-title p-sm text-center">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Team</span>
                                 </div>
-                                <div class="card-container">
-                                    CONTAINER
+                                <div class="card-container p-lg">
+                                 
                                 </div>
                             </div>
                        </div>
@@ -128,7 +187,7 @@
             <!-- FIND PARTNERS -->
             <section class="partners py-xxl">
                 <div class="wrapper-md">
-                    <div class="row">
+                    <div class="row" id="sect-partners">
                         <div class="col-4">
                             <img src="" alt="Find new Dropbox partners">
                         </div>
