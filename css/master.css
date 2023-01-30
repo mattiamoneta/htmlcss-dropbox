@@ -210,4 +210,34 @@ h4{font-size: 1.1rem;}
     height: calc(100vw / 6);
 }
 
+/* FAQ */
+
+/* Accordion */
+
+.accordion{
+    position: relative;
+}
+
+.accordion .accordion-item{
+    border-top: 1px solid black;
+}
+
+.accordion .accordion-item:last-child{
+    border-bottom: 1px solid black;
+}
+
+.accordion-item .title{
+    display: inline-block;
+}
+
+.accordion-item .content{
+    display: none;
+}
+
+.accordion-item::after{
+    position: absolute;
+    content: '\0025';
+    right: 10px;
+}
+
 /* FOOTER */
