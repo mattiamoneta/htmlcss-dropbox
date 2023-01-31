@@ -1,16 +1,5 @@
 /* ---DEBUG--- */
 
-.debug .claim{
-    background-color: aliceblue;
-}
-
-.debug .features{background-color: tomato;}
-.debug .features .col-2{background-color: teal;}
-
-
-.debug .our-partners{background-color: mediumturquoise;}
-.debug .our-partners .col-2{background-color:indigo;}
-.debug .logo-squared{background-color: mistyrose; border: 1px dotted orange;}
 
 
 footer.debug .col-1{
