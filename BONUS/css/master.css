@@ -301,8 +301,6 @@ header{
     display: block;
     top: 90%;
     opacity: 1;
-    
-   
 }
 
 .dropdown::after{
@@ -484,6 +482,7 @@ header{
 
 .accordion{
     position: relative;
+    
 }
 
 .accordion .accordion-item{
@@ -491,8 +490,13 @@ header{
     position: relative;
 }
 
+.accordion-item .content{
+    display: none;
+    max-width: 80%;
+}
+
 .accordion .accordion-item:hover .content{
-   display: block;
+    display: block;
 }
 
 .accordion .accordion-item:last-child{
@@ -505,10 +509,7 @@ header{
 
 
 
-.accordion-item .content{
-    display: none;
-    max-width: 80%;
-}
+
 
 .accordion-item::after{
     position: absolute;
@@ -540,6 +541,7 @@ header{
 
 
 .lang-dropdown{
+    position: relative;
     color: gray;
     font-size: .8rem;
 }
@@ -552,4 +554,74 @@ header{
     font: var(--fa-font-solid);
     content: '\f0d7';
     margin-left: 10px;
+}
+
+
+
+/* ANIMATIONS */
+
+.anim-slidein-right{
+    animation: slide-in-right 1s ease;
+}
+
+@keyframes slide-in-right {
+    0%{
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+.anim-slidein-top{
+    animation: slide-in-top 1s ease;
+}
+
+@keyframes slide-in-top {
+    0%{
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.anim-zoom-in{
+    animation: zoom-in 1s ease;
+}
+
+@keyframes zoom-in {
+    0%{
+        transform: scale(.8);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.anim-nav{
+    animation: nav-slide .5s ease;
+}
+
+@keyframes nav-slide {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
