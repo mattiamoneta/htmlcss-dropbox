@@ -100,6 +100,12 @@
 .pt-xl{padding-top: 50px;}
 .pt-xxl{padding-top: 150px;}
 
+.pb-sm{padding-bottom: 5px;}
+.pb-md{padding-bottom: 15px;}
+.pb-lg{padding-bottom: 25px;}
+.pb-xl{padding-bottom: 50px;}
+.pb-xxl{padding-bottom: 150px;}
+
 
 .mb-sm{margin-bottom: 5px;}
 .mb-md{margin-bottom: 15px;}
@@ -144,7 +150,8 @@ h1{
 }
 
 h2{font-size: 2rem;}
-h4{font-size: 1.3rem;}
+h3{font-size: 1.3rem;}
+h4{font-size: .9rem;}
 
 p{line-height: 1.5rem;}
 
@@ -393,7 +400,7 @@ header{
 
 /* FIND PARTNERS */
 
-#sect-partners img{
+#find-partners img{
     max-width: 90%;
 }
 
@@ -458,3 +465,40 @@ header{
 }
 
 /* FOOTER */
+
+.footer-nav{}
+
+.footer-nav ul{
+    list-style-type: none;
+
+}
+
+.footer-nav ul li{
+    padding: 3px 0px;
+}   
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+}   
+
+.footer-nav ul li a:hover{
+    text-decoration: underline;
+}   
+
+
+.lang-dropdown{
+    color: gray;
+    font-size: .8rem;
+}
+
+.lang-dropdown i{
+    padding-right: 5px;
+}
+
+.lang-dropdown::after{
+    font: var(--fa-font-solid);
+    content: '\f0d7';
+    margin-left: 10px;
+}
