@@ -578,7 +578,7 @@ header{
 
 
 .anim-slidein-top{
-    animation: slide-in-top 1s ease;
+    animation: slide-in-top .6s ease;
 }
 
 @keyframes slide-in-top {
@@ -595,7 +595,7 @@ header{
 
 
 .anim-zoom-in{
-    animation: zoom-in 1s ease;
+    animation: zoom-in .6s ease;
 }
 
 @keyframes zoom-in {
