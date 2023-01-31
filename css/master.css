@@ -427,6 +427,7 @@ header{
 
 .accordion .accordion-item{
     border-top: 1px solid black;
+    position: relative;
 }
 
 .accordion .accordion-item:hover .content{
@@ -444,12 +445,15 @@ header{
 
 
 .accordion-item .content{
-    display: block;
+    display: none;
+    max-width: 80%;
 }
 
 .accordion-item::after{
     position: absolute;
-    content: '\0025';
+    font: var(--fa-font-solid);
+    content: "\f078";
+    top: 20px;
     right: 10px;
 }
 
