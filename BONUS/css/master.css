@@ -12,7 +12,7 @@
 .bg-light{background-color: #b4d0e7;}
 .bg-dark{background-color: black;}
 .bg-grey{background-color: #f5f5f5;}
-
+.bg-brown{background-color: #1e1919;}
 .bg-green{background-color: #a2d39b;}
 .bg-violet{background-color: #61082b;}
 .bg-lightblue{background-color: #0093ce;}
@@ -21,6 +21,7 @@
 .bg-azure{background-color: #b4d0e7;}
 .bg-darkblue{background-color: #0d2481;}
 .bg-yellow{background-color: #ffd830;}
+.bt-teal{background-color: #007891;}
 
 /* text */
 .text-violet{color: #61082b;}
@@ -29,13 +30,11 @@
 
 /* LAYOUT */
 
-/* flex columns */
+/* flex layout */
 
 .justify-center{justify-content: center;}
 .justify-between{justify-content: space-between;}
 .justify-around{justify-content: space-around;}
-
-
 
 .row{display: flex;}
 .row-wrap{flex-wrap: wrap;}
@@ -47,6 +46,16 @@
 .col-4{width: calc(100% / 6 * 4);}
 .col-5{width: calc(100% / 6 * 5);}
 .col-6{width: 100%;}
+
+.ratio-1x1{
+
+    /* nuovi browser */
+    aspect-ratio: 1/1;
+
+    /* vecchi browser */
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
 
 /* wrappers */
 .wrapper-lg{
@@ -70,7 +79,8 @@
 .img-50{width: 50%;}
 .img-25{width: 25%;}
 
-.overflow-y{overflow-y: auto;}
+.overflow-y{overflow-y: hidden;}
+
 
 /* padding-margins-fix */
 
@@ -107,6 +117,14 @@
 .pb-xxl{padding-bottom: 150px;}
 
 
+.m-auto{margin: auto;}
+
+.mt-sm{margin-top: 5px;}
+.mt-md{margin-top: 15px;}
+.mt-lg{margin-top: 25px;}
+.mt-xl{margin-top: 50px;}
+.mt-xxl{margin-top: 150px;}
+
 .mb-sm{margin-bottom: 5px;}
 .mb-md{margin-bottom: 15px;}
 .mb-lg{margin-bottom: 25px;}
@@ -134,6 +152,14 @@
 
 .h-100{height: 100%;}
 .w-100{width: 100%;}
+.w-75{width: 75%;}
+.w-50{width: 50%;}
+
+.mw-100{max-width: 100%;}
+.mw-75{max-width: 75%;}
+.mw-50{max-width: 50%;}
+
+
 
 
 /* TYPO */
@@ -172,6 +198,7 @@ p{line-height: 1.5rem;}
     transition: all .5s ease;
 }
 
+.btn-xl{padding: 20px 50px;}
 .btn-lg{padding: 10px 30px;}
 .btn-md{padding: 8px 20px;}
 
@@ -331,12 +358,12 @@ header{
 /* JUMBOTRON */
 
 
-.jumbotron h1{
+#jumbo-main h1{
     max-width: 60%;
 }
 
 .jumbotron .img-hero{
-    width: 100%;
+    max-width: 100%;
 }
 
 .jumbotron .col-4.img-overlap{
@@ -432,10 +459,12 @@ header{
 
 
 .card-container .icon-list.checkmark li::before{
-    content: '\2713';
+    font: var(--fa-font-solid);
+    content: '\f00c';
     color: #0061ff;
     position: absolute;
-    left: -20px;
+    left: -23px;
+    padding-top: 2px;
 }
 
 .font-list{
@@ -625,3 +654,5 @@ header{
         transform: translateY(0%);
     }
 }
+
+
