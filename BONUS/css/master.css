@@ -23,6 +23,7 @@
 .bg-darkblue{background-color: #0d2481;}
 .bg-yellow{background-color: #ffd830;}
 .bg-teal{background-color: #007891;}
+.bg-coal{background-color: #283750;}
 .bg-darkorange{background-color: #be4b0a;}
 .bg-darkbrown{background-color: #1e1919;}
 
@@ -123,6 +124,11 @@
 .px-xl{padding: 0px 50px;}
 .px-xxl{padding: 0px 150px;}
 
+.pr-sm{padding-right: 5px;}
+.pr-md{padding-right: 15px;}
+.pr-lg{padding-right: 25px;}
+.pr-xl{padding-right: 50px;}
+.pr-xxl{padding-right: 150px;}
 
 .pt-sm{padding-top: 5px;}
 .pt-md{padding-top: 15px;}
@@ -213,6 +219,7 @@ p{line-height: 1.5rem;}
 .text-right{text-align: right;}
 .text-left{text-align: left;}
 .text-center{text-align: center;}
+.text-justify{text-align: justify;}
 
 .font-bold{font-weight: bold;}
 
